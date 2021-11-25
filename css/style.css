@@ -1,0 +1,160 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Poppins';
+}
+
+.container {
+  width: 62.5em;
+  margin: 0% auto;
+
+  text-align: center;
+}
+
+#section-login {
+  height: 43.75em;
+  padding-top: 10em;
+  font-family: 'Poppins';
+
+  background-image: url(../img/mountain.jpg);
+}
+
+#login-div {
+  border: 1px solid black;
+  border-radius: 0.7em;
+  position: relative;
+  margin: 0% auto;
+  padding: 1em 0em;
+  width: 300px;
+  text-align: center;
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+#but-login {
+  text-decoration: none;
+  color: white;
+  padding: 1em 4.5em;
+  background-color: #151b24;
+}
+
+/* CADASTRO */
+
+#navbar ul {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 1em 0em;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+}
+
+#navbar li a:hover {
+  background-color: #ffffff;
+  transition: 0.3s;
+  color: #222831;
+}
+
+#section-relatorio {
+  width: 700px;
+  margin: 0% auto;
+}
+
+#table-relatorio {
+  border: 1px solid white;
+  background-color: rgb(250, 250, 250);
+}
+
+#table-relatorio th {
+  padding-right: 1em;
+  padding-left: 1.5em;
+}
+
+/*  CLIENTES */
+#section-cliente {
+  margin: 0% auto;
+  background-color: rgb(255, 255, 255);
+  width: 700px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#section-cliente #table-adiciona input {
+  margin-right: 2em;
+}
+
+#section-cliente #table-mostra {
+  margin: 20px 0 0 0;
+  width: 100%;
+  border-top: 1px solid #888;
+  border-right: 1px solid #888;
+}
+
+#section-cliente #table-mostra th {
+  background: #ddd;
+  padding: 5px 0 5px 0;
+  font: 12pt 'arial';
+  border-left: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+
+/* PRODUTOS */
+
+#section-produto {
+  margin: 0% auto;
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#section-produto #table-adiciona input {
+  margin-right: 2em;
+}
+
+#section-produto #table-mostra {
+  margin: 20px 0 0 0;
+  width: 100%;
+  border-top: 1px solid #888;
+  border-right: 1px solid #888;
+}
+
+#section-produto #table-mostra th {
+  background: #ddd;
+  padding: 5px 0 5px 0;
+  font: 12pt 'arial';
+  border-left: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+
+/* RELVENDA 1 */
+
+#section-relatorio {
+}
+
+.titulo-relatorio {
+  padding-top: 1em;
+  color: white;
+}
+
+.mostra-relatorio {
+  color: rgb(0, 0, 0);
+  width: 500px;
+  margin: 0% auto;
+  border: 1px solid white;
+  background-color: #ffffff;
+}
+
+.mostra-relatorio th {
+  padding-left: 1em;
+  padding-right: 1em;
+  border-bottom: 1px solid white;
+}
